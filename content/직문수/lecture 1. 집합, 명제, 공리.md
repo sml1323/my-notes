@@ -5,7 +5,6 @@ tags:
   - 집합론
   - 직문수
 create: 2025-09-04 23:05:45
-dg-publish: false
 "":
 ---
 [직문수](https://youtube.com/playlist?list=PL4m4z_pFWq2pHnFFpE25LT4kR6_3jv5CY&si=5_LF9s1w9xH0t1UM)
