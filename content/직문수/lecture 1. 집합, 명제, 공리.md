@@ -8,6 +8,9 @@ create: 2025-09-04 23:05:45
 "":
 ---
 [직문수](https://youtube.com/playlist?list=PL4m4z_pFWq2pHnFFpE25LT4kR6_3jv5CY&si=5_LF9s1w9xH0t1UM)
+
+- 수학의 즐거움 채널의 직장인과 문과생을 위한 수학 강의 정리
+
 #  1. 집합과 명제, 공리
 - 수학에서 주장은 참과 거짓을 취급한다.
 	- 참, 거짓을 판별 = 특정 `집합` 에 속하냐 아니냐를 판단
