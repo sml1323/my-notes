@@ -10,6 +10,7 @@ title: "Welcome to My Digital Garden"
 ## 📂 주요 주제
 - [[Rust]]
 - [[직문수]]
+- [[python]]
 
 ---
 
