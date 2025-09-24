@@ -1,6 +1,16 @@
 ---
-title: Welcome to Quartz
+title: "Welcome to My Digital Garden"
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+# 안녕하세요
+이곳은 제가 직접 공부하고 정리한 메모, 기술 노트, 데이터 엔지니어링/프로그래밍/수학 기록 저장소입니다.  
+
+---
+
+## 📂 주요 주제
+- [[Rust]]
+- [[직문수]]
+
+---
+
+> 🚧 계속 업데이트 중입니다. 실시간 방문자 통계/댓글은 실험적으로 붙여보고 있습니다.
