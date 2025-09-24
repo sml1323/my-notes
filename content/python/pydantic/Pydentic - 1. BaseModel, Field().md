@@ -136,16 +136,20 @@ except ValidationError as e:
 ```
   
 >[!error]
-위치: ('name',)
-타입: string_too_short
-메시지: String should have at least 2 characters
-입력값: 김
+>```python
+>위치: ('name',)
+>타입: string_too_short
+>메시지: String should have at least 2 characters
+>입력값: 김
+>```
 
 >[!error]
-위치: ('age',)
-타입: greater_than
-메시지: Input should be greater than 0
-입력값: 0
+>```python
+>위치: ('age',)
+>타입: greater_than
+>메시지: Input should be greater than 0
+>입력값: 0
+>```
 
 ...
 
