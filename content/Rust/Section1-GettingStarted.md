@@ -10,7 +10,7 @@ Master the Rust programming language from A-Z. Includes projects, quizzes, and m
 
 강의 정리
 ```
-
+[learn_to_code_with_rust](https://www.udemy.com/course/learn-to-code-with-rust/)
 ## Intro to Rust
 - rust: system programming language
 	- system programming language: resources가 제한된 상황에 최적화된 언어
@@ -25,9 +25,8 @@ Master the Rust programming language from A-Z. Includes projects, quizzes, and m
 [[Rust 설치]]
 
 ## Create rust project with cargo
-```ad-note
-**cargo**는 rust project 관리를 위한 cli tool
-```
+>[!note]
+>**cargo**는 rust project 관리를 위한 cli tool
 - cargo는 rust project를 위한 starter template을 제공한다.
 ```sh
 cargo new hello_world
@@ -40,21 +39,19 @@ cargo new hello_world
 - rust code는 function으로 이루어짐
 	- function은 프로그램이 실행되기 위한 단계 또는 순차적 지침  - 요리 레시피
 
-```ad-note
-모든 Rust function은 function keyword, "fn" 으로 시작한다.
-```
+>[!note]
+>모든 Rust function은 function keyword, "fn" 으로 시작한다.
 - 모든 rust program은 lowercase `main` 으로 시작한다.(case sensitive)
 - `main` 은 프로그램의 진입점
-````ad-info
-```rs
-
-fn main(// parameters) { // code block
-    .... // 4 block indent
-    println!("Hello world"); // semicolon은 코드 라인의 끝
-
-} 
-```
-````
+>[!info]
+>```rust
+>
+>fn main(// parameters) { // code block
+>    .... // 4 block indent
+>    println!("Hello world"); // semicolon은 코드 라인의 끝
+>
+>}
+>```
 - macro - 미리 작성된 recipe
 	- `println!("Hello world")`: 문자열 출력
 
@@ -63,11 +60,10 @@ fn main(// parameters) { // code block
 - vscode rust extension 의 하위 종속성인 rust analyzer의 기능인 run 버튼을 통해 컴파일 후 실행 가능
 또는 `rustc` 명령어를 통해 컴파일 후 실행
 ![[Pasted image 20250914184851.png]]
-```ad-flow
-1. `rustc main.rs` 로 작성한 소스코드 컴파일
-   - `main.rs` 소스코드의 이름과 동일하지만 확장자가 없는 **main** 파일 생성
-1. `./main` 명령어를 통해 실행
-```
+>[!flow]
+>1. `rustc main.rs` 로 작성한 소스코드 컴파일
+>   - `main.rs` 소스코드의 이름과 동일하지만 확장자가 없는 **main** 파일 생성
+>2. `./main` 명령어를 통해 실행
 
 - mac os에서는 `file` 명령어를 통해 컴파일되거나 구축된 아키텍처의 종류 확인 가능
 ❯ file main
@@ -120,27 +116,25 @@ cargo run
 ```rust
 cargo check 
 ```
-````ad-error
-```zsh
-
-cargo check
-    Checking hello_world v0.1.0 (/Users/imseungmin/work/ruststudy/hello_world)
-error[E0423]: expected function, found macro `println`
- --> src/main.rs:2:5
-  |
-2 |     println("Hello world! 러스트 프로그램 첫 실행");
-  |     ^^^^^^^ not a function
-  |
-help: use `!` to invoke the macro
-  |
-2 |     println!("Hello world! 러스트 프로그램 첫 실행");
-  |            +
-
-For more information about this error, try `rustc --explain E0423`.
-error: could not compile `hello_world` (bin "hello_world") due to 1 previous error
-```
-
-````
+>[!error]
+>```zsh
+>
+>cargo check
+>    Checking hello_world v0.1.0 (/Users/imseungmin/work/ruststudy/hello_world)
+>error[E0423]: expected function, found macro `println`
+> --> src/main.rs:2:5
+>  |
+>2 |     println("Hello world! 러스트 프로그램 첫 실행");
+>  |     ^^^^^^^ not a function
+>  |
+>help: use `!` to invoke the macro
+>  |
+>2 |     println!("Hello world! 러스트 프로그램 첫 실행");
+>  |            +
+>
+>For more information about this error, try `rustc --explain E0423`.
+>error: could not compile `hello_world` (bin "hello_world") due to 1 previous error
+>```
 
 ## Comments
 - 주석
@@ -179,7 +173,3 @@ println!("Hello world! 러스트 프로그램 첫 실행");
 - `/**/` 을 사용해 multiline comments 가능
 
 
-
-
----
-[[_NoteCompanion/Backups/Section1 - getting started_backup_20250915_224444.md | Link to original file]]
